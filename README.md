@@ -1,13 +1,12 @@
 # NanoLM Studio v4
 
 NanoLM Studio is a local desktop workbench for building a small decoder-only
-language model from a corpus you can inspect and control. It combines document
-ingestion, cleaning, ByteLevel BPE tokenization, PyTorch training, interactive
+language model from a corpus you can inspect and control. You can built it your way, how you want it to be.
+It combines document ingestion, cleaning, ByteLevel BPE tokenization, PyTorch training, interactive
 generation, and attention visualisation in one Tk application.
 
-V4 is a reliability-focused rebuild. It keeps the approachable five-tab
-workflow while correcting the package, storage, cache, training, threading,
-and generation problems found in the supplied version.
+It has gone through a number of iterations and this V4 Studio is a reliability-focused version. It has a five-tab
+workflow while correcting the package, storage, cache, training, threading, and generation problems found in earlier versions.
 
 ## Quick start
 
@@ -156,3 +155,7 @@ workspaces, richer dataset versioning, comparative run dashboards, adapter
 fine-tuning of pretrained models, and export/inference backends such as ONNX or
 GGUF. V4 deliberately establishes the reliable local foundation those features
 would need.
+
+It is released open-source under MIT license. 
+
+By JL Kosev-Lex on 3 September 2026.
