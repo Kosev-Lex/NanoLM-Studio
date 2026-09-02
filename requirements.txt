@@ -1,0 +1,13 @@
+# Windows must use the CUDA wheel. A generic PyPI requirement can resolve to
+# a CPU-only build and make NanoLM silently miss an installed NVIDIA GPU.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.12.1+cu126; sys_platform == "win32"
+torch>=2.2; sys_platform != "win32"
+numpy>=1.26
+tokenizers>=0.19
+matplotlib>=3.8
+wordfreq>=3.1
+pypdf>=4.0
+ebooklib>=0.18
+beautifulsoup4>=4.12
+python-docx>=1.1
