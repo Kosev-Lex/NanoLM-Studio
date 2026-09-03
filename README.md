@@ -5,7 +5,7 @@ language model from a corpus you can inspect and control. You can built it your 
 It combines document ingestion, cleaning, ByteLevel BPE tokenization, PyTorch training, interactive
 generation, and attention visualisation in one Tk application.
 
-It has gone through a number of iterations and this V4 Studio is a reliability-focused version. It has a five-tab
+Although this is the first time I have released it publicly, the program has gone through a number of iterations and this V4 Studio is a reliability-focused version. It has a five-tab
 workflow while correcting the package, storage, cache, training, threading, and generation problems found in earlier versions.
 
 <figure style="width: 560px; max-width: 100%"><img src="snap_20260903.png" alt="" style="width: 100%; height: auto; display: block"></figure>
