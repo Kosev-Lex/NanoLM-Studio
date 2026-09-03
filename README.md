@@ -8,6 +8,8 @@ generation, and attention visualisation in one Tk application.
 It has gone through a number of iterations and this V4 Studio is a reliability-focused version. It has a five-tab
 workflow while correcting the package, storage, cache, training, threading, and generation problems found in earlier versions.
 
+<figure style="width: 560px; max-width: 100%"><img src="assets/snap_20260903.png" alt="" style="width: 100%; height: auto; display: block"></figure>
+
 ## Quick start
 
 Use Python 3.11 or newer. A virtual environment is strongly recommended.
